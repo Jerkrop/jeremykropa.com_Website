@@ -51,7 +51,7 @@ if(isset($_POST['submit'])){
 <body>
 <div class="form-container">
 
-   <form action="" method="post">
+   <form action="index.php" method="post">
       <h3>login</h3>
       <?php
       if(isset($error)){
