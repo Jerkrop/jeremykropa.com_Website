@@ -5,10 +5,9 @@
 session_start();
 
 if(!isset($_SESSION['user_name'])){
-   header('location:login_form.php')
-   else { 
-      header('location:index.php');
-   }
+   header('location:index.php')
+  
+   
 }
 
 ?>
