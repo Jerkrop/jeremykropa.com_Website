@@ -66,6 +66,8 @@ if(isset($_POST['submit'])){
       <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="login now" class="form-btn">
       <p>don't have an account? <a href="register_form.php">Register Now</a></p>
+      <a href="index.php">Want to go back?</a>
+
    </form>
 
 </div>
