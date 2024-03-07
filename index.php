@@ -23,20 +23,11 @@ session_start();
 </head>
 <body>
 <div class="header">
-<a href="" class="logo">Jeremy Kropa's Portfolio</a>
+<a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
   <div class="header-right">
-   <?php 
-
-if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
-{
-?>
-      <a href="logout.php">Logout</a>
-<?php }else{ ?>
-     <a href="login_form.php">Login</a>
-     <a href="register_form.php">Register</a>
-     <a href="contactus.html">Contact Me</a>
-<?php } ?>
-     
+      <a href="contactus.html" class="btn">Contact Me</a>
+      <?php  if (!isset($_SESSION['username'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
+         <?php  if (isset($_SESSION['username'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
 
 </div>
 </div> 
