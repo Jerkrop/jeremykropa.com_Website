@@ -26,8 +26,8 @@ session_start();
 <a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
   <div class="header-right">
       <a href="contactus.html" class="btn">Contact Me</a>
-      <?php  if (!isset($_SESSION['username'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
-         <?php  if (isset($_SESSION['username'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
+      <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
+         <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
 
 </div>
 </div> 
