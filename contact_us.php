@@ -24,14 +24,11 @@ echo'
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form>
-    <div class="container">
+    <div class="form-container">
         <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1>
-        <p class="back">Go back to the.</p>
-        <a href="index.php">homepage</a>
+        <p class="back">Go back to the <a href="index.php">homepage</a>.</p>
+        
     </div>
-    </form>
-
 </body>
 </html>
 
