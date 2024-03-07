@@ -23,7 +23,7 @@ session_start();
 </head>
 <body>
 <div class="header">
-<a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
+<a href="JeremyKropa.com" class="logo">Jeremy Kropa's Portfolio</a>
   <div class="header-right">
    <?php 
 
