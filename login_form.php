@@ -26,10 +26,8 @@ if(isset($_POST['submit'])){
 
          $_SESSION['user_name'] = $row['name'];
          header('location: index.php');
-         else {
-            header('location: logout.php')
-         }
 
+         
       }
      
    }else{
