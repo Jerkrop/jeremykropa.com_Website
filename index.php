@@ -6,13 +6,14 @@ session_start();
 
  if( isset($_SESSION['user_name']) && !empty($_SESSION['user_name']) )
 {
+   header('location: logout.php')else {
+      header('lcocation: login_form.php')
+      
+   }
+
+}
 ?>
-      <a href="logout.php">Logout</a>
-<?php }else{ ?>
-     <a href="login_form.php">Login</a>
-     <a href="register_form.php">Register</a>
-<?php } 
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
