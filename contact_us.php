@@ -25,10 +25,12 @@ echo'
 </head>
 <body>
     <div class="form-container">
+    <form>
         <h1>Thank you for contacting me. I will get back to you as soon as possible!</h1>
         <p class="back">Go back to the <a href="index.php">homepage</a>.</p>
         
     </div>
+    </form>
 </body>
 </html>
 
