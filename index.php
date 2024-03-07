@@ -3,17 +3,14 @@
 @include 'config.php';
 
 session_start();
-
- if( isset($_SESSION['user_name']) && !empty($_SESSION['user_name']) )
+if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
 {
-   header('location: logout.php');
-    else {
-      header('location: login_form.php');
-      
-   }
-
-}
 ?>
+      <a href="logout.php"></a>
+<?php }else{ ?>
+     <a href="login.php"></a>
+     <a href="register.php"></a>
+<?php } ?>
 
 
 <!DOCTYPE html>
