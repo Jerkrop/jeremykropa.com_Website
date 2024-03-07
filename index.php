@@ -6,8 +6,9 @@ session_start();
 
  if( isset($_SESSION['user_name']) && !empty($_SESSION['user_name']) )
 {
-   header('location: logout.php')else {
-      header('lcocation: login_form.php')
+   header('location: logout.php');
+    else {
+      header('lcocation: login_form.php');
       
    }
 
