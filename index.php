@@ -4,13 +4,9 @@
 
 session_start();
 if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
-{
+
 ?>
-      <a href="logout.php"></a>
-<?php }else{ ?>
-     <a href="login.php"></a>
-     <a href="register.php"></a>
-<?php } ?>
+      
 
 
 <!DOCTYPE html>
@@ -31,6 +27,8 @@ if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
   <div class="header-right">
       <a href="contactus.html" class="btn">Contact Me</a>
       <a href="login_form.php" class="btn">Login</a>
+      <a href="logout.php" class="btn">Logout</a>
+
 </div>
 </div> 
 <div class="container">
