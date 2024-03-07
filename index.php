@@ -5,7 +5,7 @@
 session_start();
 
 if(!isset($_SESSION['user_name'])){
- require  header('location:index.html'); 
+ require  header('location:index.php'); 
   
    
 }
@@ -28,7 +28,7 @@ if(!isset($_SESSION['user_name'])){
 <a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
   <div class="header-right">
       <a href="contactus.html" class="btn">Contact Me</a>
-      <a href="login_form.php" class="btn">Login</a>
+      <a href="logout.php" class="btn">Logout</a>
 </div>
 </div> 
 <div class="container">
