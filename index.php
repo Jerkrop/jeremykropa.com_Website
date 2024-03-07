@@ -25,10 +25,11 @@ session_start();
 <div class="header">
 <a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
   <div class="header-right">
+  <a href="register_form.php" class="btn">Register</a>
       <a href="contactus.html" class="btn">Contact Me</a>
       <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
          <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
-            <a href="register_form.php" class="btn">Register</a>
+      
 </div>
 </div> 
 <div class="container">
