@@ -8,7 +8,7 @@ session_start();
 {
    header('location: logout.php');
     else {
-      header('lcocation: login_form.php');
+      header('location: login_form.php');
       
    }
 
