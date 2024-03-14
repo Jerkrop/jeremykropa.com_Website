@@ -17,10 +17,9 @@
               <a href="resume.php" class="btn">Resume</a>
               <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
          <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
-         </div>  
+        
 
          <div class="resumecontainer">
-         <img src="/images/backgroundresume.jpg" alt="Snow" style="width:100%;">
    <h1>Jeremy Kropa <h1>
     <p>Email me at: jerkrop@jeremykropa.com  </p>
 <h3>EDUCATION:</h3>
