@@ -28,6 +28,8 @@ if(!isset($_SESSION['admin_name'])){
   <div class="header-right">
             <a href="contactus.html" class="btn">Contact Me</a>
       <a href="logout.php" class="btn">logout</a>
+      <a href="resume.php" class="btn">Resume</a>
+
 </div>
 </div>  
 <div class="container">

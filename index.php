@@ -27,7 +27,7 @@ session_start();
   <div class="header-right">
   <a href="register_form.php" class="btn">Register</a>
       <a href="contactus.html" class="btn">Contact Me</a>
-      <a href="resume.html" class="btn">Resume</a>
+      <a href="resume.php" class="btn">Resume</a>
       <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
          <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
       
