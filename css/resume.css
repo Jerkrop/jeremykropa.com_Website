@@ -1,6 +1,7 @@
 body { 
     background-image: url(/images/backgroundresume.jpg);
 }
+
 *{
     font-family:'Courier New', Courier, monospace;
     margin:0; padding:0;
@@ -8,6 +9,7 @@ body {
     outline: none; border:none;
     text-decoration: none;
  }
+
 .header { 
 
    
@@ -18,6 +20,7 @@ body {
 
 
 }
+
 .container{
     min-height: 100vh;
     display: flex;
@@ -28,10 +31,12 @@ body {
     background-image: url("/images/backgroundresume.jpg");
     color: white;
  }
+
  .container .content{
     text-align: center;
     color: black;
  }
+
 .header a {
  float: left;
  color: black;
@@ -42,10 +47,12 @@ body {
  line-height: 25px;
  border-radius: 4px;
 }
+
 .header .logo {
  font-size: 25px;
  font-weight: bold;
 }
+
 .header .active {
  background-color: dodgerblue;
  color: white;
@@ -63,12 +70,4 @@ body {
  .header-right {
    float: none;
  }
-}
-.resumecontainer { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: black;
 }
