@@ -17,9 +17,11 @@
               <a href="resume.php" class="btn">Resume</a>
               <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
          <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
-        
+         </div> 
 
-         <div class="resumecontainer">
+         <div class="container">
+         <div class="content">
+
    <h1>Jeremy Kropa <h1>
     <p>Email me at: jerkrop@jeremykropa.com  </p>
 <h3>EDUCATION:</h3>
@@ -55,6 +57,7 @@ August 2021 – May 2023
 <p>administer helpdesk software.</p>
 <p>resolve technical problems with local area network and VPN users.</p>
          </br>
+         </div>
          </div>
 </body>
 </html>
