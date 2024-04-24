@@ -39,7 +39,6 @@ if(!isset($_SESSION['admin_name'])){
       <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span></h1>
       <p>This is my Portfolio's Admin Home page</p>
       <a href="https://github.com/Jerkrop" class="btn">GitHub</a>
-   <a href="https://www.youtube.com/channel/UCKmPdf8VRkO61eMWqETYazw" class="btn">YouTube</a>
      
    </div>
 
