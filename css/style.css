@@ -1,5 +1,5 @@
 body { 
-   background: url("./");
+   background: url("https://www.shutterstock.com/shutterstock/videos/1059906425/preview/stock-footage-technological-background-of-the-abstract-computer-motherboard-can-be-used-in-the-description-of.webm");
 }
 
 *{
@@ -17,8 +17,7 @@ body {
    justify-content: center;
    padding:20px;
    padding-bottom: 60px;
-   background-clip: url("/images/backgroundvideo.mp4");
-   color: white;
+   background: url("https://www.shutterstock.com/shutterstock/videos/1059906425/preview/stock-footage-technological-background-of-the-abstract-computer-motherboard-can-be-used-in-the-description-of.webm");
 }
 
 
@@ -177,13 +176,4 @@ body {
    .header-right {
      float: none;
    }
-}
-
-#myvideo{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
  }
