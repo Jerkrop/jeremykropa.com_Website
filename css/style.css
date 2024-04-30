@@ -1,5 +1,5 @@
 body { 
-   background-image: url(/images/background.jpg);
+   background-image: url(/images/backgroundvideo.mp4);
 }
 
 *{
@@ -17,7 +17,7 @@ body {
    justify-content: center;
    padding:20px;
    padding-bottom: 60px;
-   background-image: url("/images/background.jpg");
+   background-image: url("/images/backgroundvideo.mp4");
    color: white;
 }
 
@@ -70,6 +70,7 @@ body {
    justify-content: center;
    padding:20px;
    padding-bottom: 60px;
+   text-align: center;
    
 }
 
@@ -100,7 +101,7 @@ body {
 }
 
 .form-container form select option{
-   background: #fff;
+   background: transparent;
 }
 
 .form-container form .form-btn{
@@ -139,7 +140,7 @@ body {
 
    
       overflow: hidden;
-      background-color: #f1f1f1;
+      background-color: black;
       padding: 20px 10px;
    
 
@@ -147,7 +148,7 @@ body {
 }
 .header a {
    float: left;
-   color: black;
+   color: whitesmoke;
    text-align: center;
    padding: 12px;
    text-decoration: none;
