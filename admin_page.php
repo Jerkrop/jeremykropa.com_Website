@@ -33,7 +33,9 @@ if(!isset($_SESSION['admin_name'])){
 </div>
 </div>  
 <div class="container">
-
+<video autoplay muted loop>
+  <source src="/images/backgroundvideo.mp4" type="video/mp4">
+</video>
    <div class="content">
       <h3>hi, <span>admin</span></h3>
       <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span></h1>

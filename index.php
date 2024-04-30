@@ -35,7 +35,9 @@ session_start();
 </div>
 </div> 
 <div class="container">
-
+<video autoplay muted loop>
+  <source src="/images/backgroundvideo.mp4" type="video/mp4">
+</video>
    <div class="content">
       <h1>Jeremy Kropa's Portfolio</h1>
       <h3>Welcome <span>USER</span></h3>
