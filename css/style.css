@@ -1,3 +1,7 @@
+body { 
+   background: url("./");
+}
+
 *{
    font-family:'Courier New', Courier, monospace;
    margin:0; padding:0;
@@ -13,6 +17,7 @@
    justify-content: center;
    padding:20px;
    padding-bottom: 60px;
+   background-clip: url("/images/backgroundvideo.mp4");
    color: white;
 }
 
@@ -172,17 +177,4 @@
    .header-right {
      float: none;
    }
- }
-
-
-
-
- 
-/* css to fit the video fullscreen on the browser window */
- #myvideo {
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   min-width: 100%;
-   min-height: 100%;
- }
+}
