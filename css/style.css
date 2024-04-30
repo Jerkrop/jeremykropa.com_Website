@@ -1,5 +1,5 @@
 body { 
-   background-image: url("https://i.gifer.com/bJk.gif");
+   background: url("https://i.gifer.com/bJk.gif");
 }
 
 *{
@@ -17,7 +17,8 @@ body {
    justify-content: center;
    padding:20px;
    padding-bottom: 60px;
-   background-image: url("https://i.gifer.com/bJk.gif");
+   background: url("https://i.gifer.com/bJk.gif");
+   color: white;
 }
 
 
