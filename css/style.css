@@ -179,7 +179,7 @@
 
  
 /* css to fit the video fullscreen on the browser window */
- #myVideo {
+ #myvideo {
    position: fixed;
    right: 0;
    bottom: 0;
