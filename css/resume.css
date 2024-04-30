@@ -34,7 +34,7 @@ body {
 
  .container .content{
     text-align: center;
-    color: white;
+    color: black;
  }
 
 .header a {
@@ -55,7 +55,7 @@ body {
 
 .header .active {
  background-color: dodgerblue;
- color: red;
+ color: white;
 }
 
 .header-right {
