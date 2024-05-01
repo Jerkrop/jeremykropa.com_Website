@@ -178,3 +178,14 @@ body {
      float: none;
    }
  }
+
+
+ /* Styling for youtube videos */
+ .videos{
+   display: flex;
+   justify-content: center;
+   }
+   
+   iframe{
+     padding: 1rem;
+   }

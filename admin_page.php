@@ -20,6 +20,7 @@ if(!isset($_SESSION['admin_name'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <script src="youtube_Automation.js"></script>
 
 </head>
 <body>
@@ -36,13 +37,26 @@ if(!isset($_SESSION['admin_name'])){
 
    <div class="content">
       <h3>hi, <span>admin</span></h3>
-      <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span></h1>
-      <p>This is my Portfolio's Admin Home page</p>
+      <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span> to my Portfolio Website</h1>
+      <p>This is my Home Page for my GitHub Projects & Youtube Updates</p>
       <a href="https://github.com/Jerkrop" class="btn">GitHub</a>
      
    </div>
 
 </div>
+<div class="videos">
+<div>
+<iframe class="latestVideoEmbed" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+                                            
+<div>
+<iframe class="latestVideoEmbed" vnum='1' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+                                            
+<div>
+<iframe class="latestVideoEmbed" vnum='2' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+  </div>
 
 </body>
 </html>

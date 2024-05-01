@@ -19,6 +19,7 @@ session_start();
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <script src="youtube_Automation.js"></script>
 
 </head>
 <body>
@@ -46,6 +47,19 @@ session_start();
 
 
 </div>
+<div class="videos">
+<div>
+<iframe class="latestVideoEmbed" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+                                            
+<div>
+<iframe class="latestVideoEmbed" vnum='1' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+                                            
+<div>
+<iframe class="latestVideoEmbed" vnum='2' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+  </div>
 
 </body>
 </html>
