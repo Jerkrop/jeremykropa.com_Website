@@ -44,10 +44,7 @@ session_start();
 
 
    </div>
-
-
-</div>
-<div class="videos">
+   <div class="videos">
 <div>
 <iframe class="latestVideoEmbed" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -60,6 +57,9 @@ session_start();
 <iframe class="latestVideoEmbed" vnum='2' width="600" height="340" frameborder="0" allowfullscreen></iframe>
 </div>
   </div>
+
+</div>
+
 
 </body>
 </html>
