@@ -24,7 +24,7 @@ if(!isset($_SESSION['admin_name'])){
 </head>
 <body>
 <div class="header">
-<a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
+<a href="index.php" class="logo">Jeremy Kropa</a>
   <div class="header-right">
             <a href="contactus.html" class="btn">Contact Me</a>
       <a href="logout.php" class="btn">logout</a>
