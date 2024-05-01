@@ -10,7 +10,7 @@
 <body>
 
     <div class="header">
-        <a href="index.php" class="logo">Jeremy Kropa's Portfolio</a>
+        <a href="index.php" class="logo">Jeremy Kropa</a>
           <div class="header-right">
           <a href="register_form.php" class="btn">Register</a>
               <a href="contactus.html" class="btn">Contact Me</a>
