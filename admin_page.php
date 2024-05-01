@@ -35,14 +35,14 @@ if(!isset($_SESSION['admin_name'])){
 <div class="container">
 
    <div class="content">
-   <div>
-      
-   <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUKmPdf8VRkO61eMWqETYazw" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
-</div>
+   
       <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span> to my Portfolio Website</h1>
       <p>This is my Home Page for my GitHub Projects & Youtube Updates</p>
       <a href="https://github.com/Jerkrop" class="btn">GitHub</a>
-     
+      <div>
+      
+      <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUKmPdf8VRkO61eMWqETYazw" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
+   </div>
 
                                             
 
