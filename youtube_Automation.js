@@ -9,7 +9,8 @@ const loadVideo = (iframe) => {
           console.log(result)
             const videoNumber = iframe.getAttribute('vnum')
             const link = result.items[videoNumber].link;
-            const id = link.substr(link.indexOf("=") + 1);
+            const id = link.substr(link.indexOf("=") + 1)
+            //https://www.youtube.com/watch?v=_vhY5a6uSX0
             iframe.setAttribute("src", `https://youtube.com/embed/${id}?controls=0&autoplay=1`);
         })
         .catch(error => console.log('error', error));

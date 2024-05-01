@@ -41,8 +41,7 @@ if(!isset($_SESSION['admin_name'])){
       <p>This is my Home Page for my GitHub Projects & Youtube Updates</p>
       <a href="https://github.com/Jerkrop" class="btn">GitHub</a>
      
-   </div>
-   <div class="videos">
+      <div class="videos">
 <div>
 <iframe class="latestVideoEmbed" vnum='0' width="600" height="340" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -55,6 +54,8 @@ if(!isset($_SESSION['admin_name'])){
 <iframe class="latestVideoEmbed" vnum='2' width="600" height="340" frameborder="0" allowfullscreen></iframe>
 </div>
   </div>
+   </div>
+
 </div>
 
 
