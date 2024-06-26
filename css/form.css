@@ -6,7 +6,7 @@
   
   html, body {
     height: 100vh;
-    background: #666666;
+    background-image: url("/images/background.gif");
     font-family: 'Balsamiq Sans', sans-serif;
   }
   
@@ -19,7 +19,7 @@
   .card {
     width: 70%;
     padding: 30px 90px 90px 90px;
-    border: 6px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
     box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
@@ -129,3 +129,4 @@
       width: 100%;
     }
   }
+  
