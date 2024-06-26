@@ -100,9 +100,6 @@ body {
    border-radius: 5px;
 }
 
-.form-container form select option{
-   background: transparent;
-}
 
 .form-container form .form-btn{
    background: #fbd0d9;
