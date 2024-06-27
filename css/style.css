@@ -30,26 +30,35 @@ body {
 .container .content h3{
    font-size: 30px;
    color: white;
+   text-align: center;
 }
 
 .container .content h3 span{
    background: lightblue;
    border-radius: 5px;
    padding:0 15px;
+   text-align: center;
+
 }
 
 .container .content h1{
    font-size: 50px;
-   color: w\hite
+   color: white;
+   text-align: center;
+
 }
 
 .container .content h1 span{
    color:crimson;
+   text-align: center;
+
 }
 
 .container .content p{
    font-size: 25px;
    margin-bottom: 20px;
+   text-align: center;
+
 }
 
 .container .content .btn{
@@ -60,6 +69,8 @@ body {
    color:#fff;
    margin:0 5px;
    text-transform: capitalize;
+   text-align: center;
+
 }
 
 .container .content .btn:hover{
