@@ -52,9 +52,9 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
 
+   <div class="row">
 
 <div class="card">
-<div class="row">
 
       
       <h2>login</h2>
