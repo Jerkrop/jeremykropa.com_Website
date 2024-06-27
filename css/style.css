@@ -1,5 +1,7 @@
 body { 
    background-image: url("/images/background.gif");
+   background-size: cover;
+
 }
 
 *{
@@ -18,6 +20,8 @@ body {
    padding:20px;
    padding-bottom: 60px;
    background-image: url("/images/background.gif");
+   background-size: cover;
+
    color: white;
 }
 
