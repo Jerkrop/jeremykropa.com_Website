@@ -64,7 +64,7 @@ if(isset($_POST['submit'])){
 
       <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
-      <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+      <div style="align-items: center;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="login" class="form-btn">
       <p>don't have an account? <a href="register_form.php">Register</a></p>
       <a href="index.php">Want to go back?</a>
