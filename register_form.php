@@ -67,7 +67,7 @@ if(isset($_POST['submit'])){
       <select name="user_type">
          <option value="user">user</option>
       </select>
-            <div style="align-items: center;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+            <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="register" class="form-btn">
       <p>Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
