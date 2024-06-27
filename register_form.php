@@ -60,18 +60,41 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
+      
       <div class="col">
          <div class="form-group">
       <input type="text" name="name" required placeholder="Enter your name">
-      <input type="email" name="email" required placeholder="Enter your email">
+   </div>
+   </div>
+
+   <div class="col">
+         <div class="form-group">
+   <input type="email" name="email" required placeholder="Enter your email">
+   </div>
+   </div>
+
+   <div class="col">
+         <div class="form-group">
       <input type="password" name="password_" required placeholder="Enter your password">
+      </div>
+      </div>
+      
+      <div class="col">
+      <div class="form-group">
       <input type="password" name="cpassword" required placeholder="Confirm your password">
+      </div>
+      </div>
+      
       <select name="user_type">
          <option value="user">user</option>
       </select>
             <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+
+            <div class="col">
       <input type="submit" name="submit" value="register" class="form-btn">
-      <p>Already have an account? <a href="login_form.php">Login</a></p>
+   </div>
+
+      <p style="color: white;">Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
    </div>
    </div>
