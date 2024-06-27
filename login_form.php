@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/form.css">
    
 </head>
-
+<div class="form-container">
    <form action="" method="post">
       <h3>login</h3>
       <?php
@@ -60,7 +60,7 @@ if(isset($_POST['submit'])){
       };
    
       ?>
-      <div class="form-container">
+     
 
       <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
