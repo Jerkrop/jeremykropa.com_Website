@@ -24,6 +24,7 @@
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     text-align: center;
+    align-items: center;
   }
   
   .card h2 {
@@ -47,6 +48,7 @@
     width: 100%;
     margin: 30px 20px 40px 0;
     transition: 0.5s;
+    
   }
   
   .card .row .form-group {
