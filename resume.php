@@ -13,9 +13,9 @@
         <a href="index.php" class="logo">Jeremy Kropa</a>
           <div class="header-right">
           <a href="index.php" class="btn">Home</a>
-          <a href="login_form.php" class="btn">Register</a>
+          <a href="login_form.php" class="btn">Login</a>
           <a href="register_form.php" class="btn">Register</a>
-              <a href="contactus.html" class="btn">Contact Me</a>
+              <a href="contact_us.html" class="btn">Contact Me</a>
          </div> 
          </div>
          <div class="container">
