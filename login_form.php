@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/form.css">
    
 </head>
-<body>
+
 <div class="card">
 
    <form action="" method="post">
@@ -75,5 +75,5 @@ if(isset($_POST['submit'])){
 
 </div>
 
-</body>
+
 </html>
