@@ -86,7 +86,6 @@ if(isset($_POST['submit'])){
       </select>
             <div style="text-align center;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
 
-            <div class="col">
       <input type="submit" name="submit" value="register" class="form-btn">
    </div>
 
