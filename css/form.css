@@ -138,48 +138,67 @@
 
 
   .form-container{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:20px;
-    padding-bottom: 60px;
-    text-align: center;
+    
+        width: 100%;
+        padding: 30px 90px 90px 90px;
+        border: 6px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 50px;
+       
+      }
   
- }
+ 
  
  .form-container form{
-    padding:20px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    text-align: center;
-    width: 500px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
  }
  
  .form-container form h3{
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
     color:white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
  }
  
  .form-container form input,
  .form-container form select{
+    position: absolute;
     width: 100%;
-    padding:10px 15px;
-    font-size: 17px;
-    margin:8px 0;
-    background: lightblue;
-    border-radius: 5px;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-radius: 50px;
+    align-items: center;
  }
  
  
  .form-container form .form-btn{
-    background: #fbd0d9;
-    color:crimson;
-    text-transform: capitalize;
-    font-size: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+    text-align: center; 
  }
  
  .form-container form .form-btn:hover{
