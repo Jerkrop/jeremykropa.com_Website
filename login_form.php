@@ -49,6 +49,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/form.css">
    
 </head>
+<div class="row">
 
 <div class="card">
 
@@ -69,6 +70,7 @@ if(isset($_POST['submit'])){
       <input type="submit" name="submit" value="login" class="form-btn">
       <p>don't have an account? <a href="register_form.php">Register Now</a></p>
       <a href="index.php">Want to go back?</a>
+   </div>
    </div>
    </div>
    </form>

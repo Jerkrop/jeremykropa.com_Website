@@ -60,7 +60,9 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      
+
+          <div class="row">
+
       <div class="col">
          <div class="form-group">
       <input type="text" name="name" required placeholder="Enter your name">
@@ -88,7 +90,7 @@ if(isset($_POST['submit'])){
       <select name="user_type">
          <option value="user">user</option>
       </select>
-            <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+            <div style="text-align;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
 
             <div class="col">
       <input type="submit" name="submit" value="register" class="form-btn">
@@ -96,6 +98,7 @@ if(isset($_POST['submit'])){
 
       <p style="color: white;">Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
+   </div>
    </div>
    </div>
    </form>
