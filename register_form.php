@@ -51,7 +51,9 @@ if(isset($_POST['submit'])){
    
 
    <form action="" method="post">
-
+   <div class="row">
+            
+            <div class="card">
       <h2>register</h2>
       <?php
       if(isset($error)){
@@ -61,9 +63,7 @@ if(isset($_POST['submit'])){
       };
       ?>
 
-          <div class="row">
-            
-          <div class="card">
+         
 
       <div class="col">
          <div class="form-group">
