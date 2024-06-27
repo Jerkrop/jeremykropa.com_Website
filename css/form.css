@@ -22,7 +22,7 @@
     padding: 30px 90px 90px 90px;
     border: 6px solid rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 50px;
+    border-radius: 5px;
    
   }
   
@@ -151,9 +151,10 @@
  .form-container form{
     padding:20px;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border: 6px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     text-align: center;
-    width: 500px;
+    width: 30%;
  }
  
  .form-container form h3{
