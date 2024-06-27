@@ -46,14 +46,14 @@ if(isset($_POST['submit'])){
    <title>Jeremy Kropa's Portfolio Login</title>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/form.css">
    
 </head>
 <body>
-<div class="form-container">
+<div class="card">
 
    <form action="" method="post">
-      <h3>login</h3>
+      <h2>login</h2>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -61,13 +61,16 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      <input type="email" name="email" required placeholder="Enter your email">
+     <div class="col">
+      <div class="form-group">
+       <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
       <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="login" class="form-btn">
       <p>don't have an account? <a href="register_form.php">Register Now</a></p>
       <a href="index.php">Want to go back?</a>
-
+   </div>
+   </div>
    </form>
 
 </div>
