@@ -18,17 +18,18 @@
   }
   
   .card {
-    width: 70%;
+    width: 100%;
     padding: 30px 90px 90px 90px;
     border: 6px solid rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
+    text-align: center;
   }
   
   .card h2 {
-    color: rgba(0, 0, 0, 0.3);
-    font-size: 60px;
+    color:white;
+    font-size: 40px;
     text-transform: uppercase;
   }
   
@@ -39,6 +40,7 @@
     grid: auto / auto auto;
     grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
     grid-gap: 30px;
+    text-align: center;
   }
   
   .card .row .col {
@@ -58,7 +60,7 @@
   .card .row .form-group input,
   .card .row .form-group textarea {
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: 100%;
     background: transparent;
     outline: none;
@@ -94,7 +96,7 @@
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     padding: 10px;
     height: 100%;
-    width: 50%;
+    width: 100%;
     cursor: pointer;
     outline: none;
     background: transparent;
@@ -113,7 +115,7 @@
     transition: all 0.4s;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 450px) {
     .card .row {
       grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
     }
