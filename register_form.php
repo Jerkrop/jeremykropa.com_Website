@@ -51,9 +51,9 @@ if(isset($_POST['submit'])){
    
 
    <form action="" method="post">
-   <div class="row">
+   <div class="form-container">
             
-            <div class="card">
+          
       <h2>register</h2>
       <?php
       if(isset($error)){
@@ -65,8 +65,6 @@ if(isset($_POST['submit'])){
 
          
 
-      <div class="col">
-         <div class="form-group">
       <input type="text" name="name" required placeholder="Enter your name">
  
 
@@ -92,10 +90,7 @@ if(isset($_POST['submit'])){
 
       <p style="color: white;">Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
-   </div>
-   </div>
-   </div>
-   </div>
+   
 
    </form>
 
