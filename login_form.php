@@ -49,7 +49,6 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/style.css">
    
 </head>
-<div class="form-container">
 
    <form action="" method="post">
       <h3>login</h3>
@@ -59,7 +58,10 @@ if(isset($_POST['submit'])){
             echo '<span class="error-msg">'.$error.'</span>';
          };
       };
+   
       ?>
+      <div class="form-container">
+
       <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
       <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>

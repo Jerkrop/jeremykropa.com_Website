@@ -48,7 +48,6 @@ if(isset($_POST['submit'])){
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
    
-<div class="form-container">
 
    <form action="" method="post">
       <h3>register</h3>
@@ -59,6 +58,8 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
+      <div class="form-container">
+
       <input type="text" name="name" required placeholder="Enter your name">
       <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
