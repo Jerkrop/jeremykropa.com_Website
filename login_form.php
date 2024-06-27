@@ -68,9 +68,9 @@ if(isset($_POST['submit'])){
       <p>don't have an account? <a href="register_form.php">Register</a></p>
       <a href="index.php">Want to go back?</a>
 
+      </div>
    </form>
 
-</div>
 
 </body>
 </html>

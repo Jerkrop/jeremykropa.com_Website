@@ -5,7 +5,6 @@
   }
   
   html, body {
-    height: 100vh;
     background-image: url("/images/background.gif");
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
