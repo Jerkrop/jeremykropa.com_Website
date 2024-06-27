@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
    <title>Login</title>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/form.css">
    
 </head>
 
