@@ -78,7 +78,9 @@ if(isset($_POST['submit'])){
       
      
       <input type="password" name="cpassword" required placeholder="Confirm your password">
-     
+      </div>
+   </div>
+   </div>
       
       <select name="user_type">
          <option value="user">user</option>
@@ -91,9 +93,7 @@ if(isset($_POST['submit'])){
 
       <p style="color: white;">Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
-   </div>
-   </div>
-   </div>
+   
    </form>
 
 </div>
