@@ -50,9 +50,13 @@ if(isset($_POST['submit'])){
    
 </head>
 
+   <form action="" method="post">
+
+   <div class="row">
+
 <div class="card">
 
-   <form action="" method="post">
+      
       <h2>login</h2>
       <?php
       if(isset($error)){
@@ -61,22 +65,21 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      <div class="row">
-
      <div class="col">
       <div class="form-group">
        <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
-      <div style="text-align: center;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+      <div style="text-align:center" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="login" class="form-btn">
       <p>don't have an account? <a href="register_form.php">Register Now</a></p>
       <a href="index.php">Want to go back?</a>
    </div>
    </div>
    </div>
+   </div>
+
    </form>
 
-</div>
 
 
 </html>
