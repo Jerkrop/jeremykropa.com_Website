@@ -43,18 +43,17 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Jeremy Kropa's Portfolio Login</title>
+   <title>Login</title>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/form.css">
+   <link rel="stylesheet" href="css/style.css">
    
 </head>
+<body>
+<div class="form-container">
 
    <form action="" method="post">
-
-   <div class="form-container">
-      
-      <h2>login</h2>
+      <h3>login</h3>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -62,17 +61,16 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-  
-       <input type="email" name="email" required placeholder="Enter your email">
+      <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
-      <div style="text-align:center" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
+      <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="login" class="form-btn">
-      <p>don't have an account? <a href="register_form.php">Register Now</a></p>
+      <p>don't have an account? <a href="register_form.php">Register</a></p>
       <a href="index.php">Want to go back?</a>
-      </div>
 
    </form>
 
+</div>
 
-
+</body>
 </html>

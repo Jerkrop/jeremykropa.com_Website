@@ -40,21 +40,19 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Register Form</title>
+   <title>register form</title>
    
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/form.css">
+   <link rel="stylesheet" href="css/style.css">
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-
+<body>
    
+<div class="form-container">
 
    <form action="" method="post">
-   <div class="form-container">
-            
-          
-      <h2>register</h2>
+      <h3>register</h3>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -62,38 +60,21 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-
-         
-
       <input type="text" name="name" required placeholder="Enter your name">
- 
-
-  
-   <input type="email" name="email" required placeholder="Enter your email">
-  
-
-
+      <input type="email" name="email" required placeholder="Enter your email">
       <input type="password" name="password_" required placeholder="Enter your password">
-     
-      
-     
       <input type="password" name="cpassword" required placeholder="Confirm your password">
-     
-      
       <select name="user_type">
          <option value="user">user</option>
       </select>
-            <div style="text-align center;" class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
-
+            <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
       <input type="submit" name="submit" value="register" class="form-btn">
-   </div>
-
-      <p style="color: white;">Already have an account? <a href="login_form.php">Login</a></p>
+      <p>Already have an account? <a href="login_form.php">Login</a></p>
       <a href="index.php">Want to go back?</a>
-   
 
    </form>
 
+</div>
 
-
+</body>
 </html>
