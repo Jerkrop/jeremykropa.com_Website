@@ -1,5 +1,6 @@
 body { 
     background-image: url(/images/backgroundresume.png);
+    background-size: cover;
 }
 
 *{
