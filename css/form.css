@@ -46,7 +46,8 @@
  }
  
  .form-container form input,
- .form-container form select{
+ .form-container form select,
+ .form-contaienr form label{
     width: 100%;
     padding:10px 15px;
     font-size: 17px;
