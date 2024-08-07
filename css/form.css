@@ -32,8 +32,8 @@
  .form-container form{
     padding:20px;
     border-radius: 5px;
-    border: 6px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    border: 6px solid gray;
+    box-shadow: 10px 10px 0 grey;
     text-align: center;
     width: 500px;
  }
