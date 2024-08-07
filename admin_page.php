@@ -37,8 +37,10 @@ if(!isset($_SESSION['admin_name'])){
    <div class="content">
    
       <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span> to my Portfolio Website</h1>
-      <p>This is my Home Page for my GitHub Projects & Youtube Updates</p>
-      <a href="https://github.com/Jerkrop", class="btn", style="text-align:center;">GitHub</a>
+      <p>This is my Home Page for my GitHub Projects</p>
+      <div>
+      <a href="https://github.com/Jerkrop" class="btn" >GitHub</a>
+</div>
       <div>
       
 
