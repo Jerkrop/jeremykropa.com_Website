@@ -43,7 +43,7 @@ session_start();
       
       <p>This is my Home Page for my GitHub Projects & Youtube Updates</p>
 
-      <a href="https://github.com/Jerkrop" class="btn" style="text-align:center;">GitHub</a> 
+      <a href="https://github.com/Jerkrop", class="btn", style="text-align:center;">GitHub</a> 
 
 
       
