@@ -70,6 +70,8 @@ body {
    margin:0 5px;
    text-transform: capitalize;
    text-align: center;
+   align-items: center;
+   justify-content: center;
 
 }
 
