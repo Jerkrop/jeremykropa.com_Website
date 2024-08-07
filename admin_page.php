@@ -38,8 +38,6 @@ if(!isset($_SESSION['admin_name'])){
    
       <h1>Welcome <span><?php echo $_SESSION['admin_name']?></span> to my Portfolio Website</h1>
       <p>This is my Home Page for my GitHub Projects</p>
-      
-</div>
       <div>
       <a href="https://github.com/Jerkrop" class="btn" style="align-items: center;">GitHub</a>
 </div>
@@ -49,6 +47,7 @@ if(!isset($_SESSION['admin_name'])){
                                             
 
 
+</div>
 
 
 </body>
