@@ -75,7 +75,8 @@
  }
  
  .form-container form p a{
-    color:white;
+    color:white
+    ;
  }
  
  .form-container form .error-msg{
