@@ -42,7 +42,7 @@
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color:black;
+    color:wheat;
  }
  
  .form-container form input,
@@ -73,7 +73,7 @@
  .form-container form p{
     margin-top: 10px;
     font-size: 20px;
-    color: black;
+    color: white;
  }
  
  .form-container form p a{
