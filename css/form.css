@@ -32,8 +32,8 @@
     padding:20px;
     border-radius: 5px;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    width: 500px;
+    height:500px;
  }
  
  .form-container form h3{
