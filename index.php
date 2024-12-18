@@ -21,7 +21,6 @@ session_start();
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
 <div class="header">
 <a href="index.php" class="logo">Jeremy Kropa</a>
   <div class="header-right">
@@ -34,6 +33,9 @@ session_start();
       
 </div>
 </div> 
+
+<body>
+
 <div class="container">
 
    <div class="content">
