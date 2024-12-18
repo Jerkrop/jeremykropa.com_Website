@@ -6,7 +6,7 @@
   
   html, body {
     height: 100vh;
-    background-image: url("/images/background.jpg");
+   background-color: blue;
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
   }
@@ -32,8 +32,6 @@
  .form-container form{
     padding:20px;
     border-radius: 5px;
-    border: 6px solid gray;
-    box-shadow: 10px 10px 0 grey;
     text-align: center;
     width: 500px;
  }
@@ -52,7 +50,7 @@
     padding:10px 15px;
     font-size: 17px;
     margin:8px 0;
-    background: lightblue;
+    background: white;
     border-radius: 5px;
  }
  
@@ -77,7 +75,7 @@
  }
  
  .form-container form p a{
-    color:crimson;
+    color:white;
  }
  
  .form-container form .error-msg{
