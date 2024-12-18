@@ -6,7 +6,7 @@
   
   html, body {
     height: 100vh;
-    background-image: url("/images/background.jp4");
+    background-image: url("/images/background.jpg");
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
   }
