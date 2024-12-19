@@ -21,6 +21,7 @@
   .form-container{
     min-height: 100vh;
     display: flex;
+    flex: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
