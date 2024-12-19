@@ -6,14 +6,15 @@
   
   html, body {
     height: 100vh;
-   background-color: blue;
+   
     font-family: 'Balsamiq Sans', sans-serif;
-    background-size: cover;
   }
   
   body {
     display: flex;
     align-items: center;
+    background-color: blue;
+    background-size: cover;
     justify-content: center;
   }
   
