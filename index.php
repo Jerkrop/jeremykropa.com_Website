@@ -46,12 +46,16 @@ session_start();
       <p>This is my Home Page for my GitHub Projects</p>
 <div>
       <a href="https://github.com/Jerkrop" class="btn" >GitHub</a> 
-         </div>
-
+   
+   </div>
+   </div>
       
- 
+      
+         <div class="footer">
+   <a href="index.php" class="logo">Jeremy Kropa</a>         
+<div class="footer-right">
+
          </div>
-
-
+         </div>
 </body>
 </html>
