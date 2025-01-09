@@ -35,13 +35,6 @@ session_start();
 </div> 
 
 
-<div class="footer">
-   <a href="index.php" class="logo">Jeremy Kropa</a>         
-<div class="footer-right">
-<a href="https://github.com/Jerkrop" class="btn">GitHub</a>
-         </div>
-         </div>
-
 <body>
 
 <div class="container">
@@ -61,6 +54,14 @@ session_start();
       
       
 </body>
+
+
+<div class="footer">
+   <a href="index.php" class="logo">Jeremy Kropa</a>         
+<div class="footer-right">
+<a href="https://github.com/Jerkrop" class="btn">GitHub</a>
+         </div>
+         </div>
 
 
 
