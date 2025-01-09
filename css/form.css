@@ -5,7 +5,7 @@
   }
   
   html, body {
-   background-color: blue;
+   background-image: url("/images/background.jpg");
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
   }
