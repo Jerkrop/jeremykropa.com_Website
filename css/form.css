@@ -19,11 +19,9 @@
   
   
   .form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-
+   text-align: center;
+   padding: 20px;
  }
  
  
