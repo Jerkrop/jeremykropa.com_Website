@@ -19,13 +19,13 @@
   
   
   .form-container{
-    min-height: 100vh;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: white;
-   
+
  }
  
  .form-container form{
