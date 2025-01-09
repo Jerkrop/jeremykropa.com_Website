@@ -20,8 +20,8 @@
   
   .form-container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: white;
     margin-top: 50%;
