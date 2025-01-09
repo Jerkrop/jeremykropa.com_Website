@@ -18,7 +18,7 @@
   
   
   .form-container{
-    background-color: transparent;
+   background-color: rgba(255, 255, 255, 0.45);   
    text-align: center;
    padding: 20px;
    margin-top: 15%;
