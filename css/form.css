@@ -5,7 +5,6 @@
   }
   
   html, body {
-    
    background-color: blue;
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
@@ -22,6 +21,7 @@
     background-color: white;
    text-align: center;
    padding: 20px;
+   margin-top: auto;
  }
  
  
