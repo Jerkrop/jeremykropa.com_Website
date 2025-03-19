@@ -5,7 +5,6 @@
   }
   
   html, body {
-   background-image: url("/images/background.jpg");
     font-family: 'Balsamiq Sans', sans-serif;
     background-size: cover;
   }
@@ -30,7 +29,7 @@
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color:black;
+    color:white;
  }
  
  .form-container form input,
@@ -46,7 +45,7 @@
  
  
  .form-container form .form-btn{
-    background: #fbd0d9;
+    background: black;
     color:crimson;
     text-transform: capitalize;
     font-size: 20px;
@@ -65,8 +64,7 @@
  }
  
  .form-container form p a{
-    color:black
-    ;
+    color:white;
  }
  
  .form-container form .error-msg{

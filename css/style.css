@@ -215,7 +215,7 @@ body {
 
 
 
- .footer { 
+ .footer_bottom { 
 
    
    overflow: hidden;
@@ -225,7 +225,7 @@ body {
 
 
 }
-.footer a {
+.footer_bottom a {
 float: left;
 color: whitesmoke;
 text-align: center;
@@ -235,11 +235,11 @@ font-size: 13px;
 line-height: 25px;
 border-radius: 4px;
 }
-.footer .logo {
+.footer_bottom .logo {
 font-size: 25px;
 font-weight: bold;
 }
-.footer .active {
+.footer_bottom .active {
 background-color: dodgerblue;
 color: white;
 }

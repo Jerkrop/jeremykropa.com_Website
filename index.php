@@ -53,10 +53,10 @@ session_start();
       
       
       
-</body>
+
 
 <footer>
-<div class="footer">
+<div class="footer_bottom">
    <a href="index.php" class="logo">Jeremy Kropa</a>         
 <div class="footer-right">
 <a href="https://github.com/Jerkrop" class="btn">GitHub</a>
@@ -64,5 +64,5 @@ session_start();
          </div>
          </footer>
 
-
+         </body>
 </html>
