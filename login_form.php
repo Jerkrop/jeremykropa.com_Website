@@ -39,11 +39,14 @@ if(isset($_POST['submit'])){
 
 
 
+
+
+<html lang="en">
+
 <?php include 'includes/header.php';
 
 ?>
 
-<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,7 +54,7 @@ if(isset($_POST['submit'])){
    <title>Login</title>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/form.css">
+   <link rel="stylesheet" href="css/style.css">
    
 </head>
 <div class="form-container">

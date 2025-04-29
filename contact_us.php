@@ -1,6 +1,4 @@
-<?php include 'includes/header.php';
 
-?>
 <?php
 
 $name = $_POST['name'];
@@ -39,10 +37,3 @@ echo'
 
 
 ';
-
-
-?>
-
-<?php include 'includes/footer.php';
-
-?>

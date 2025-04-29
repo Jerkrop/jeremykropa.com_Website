@@ -7,12 +7,15 @@ session_start();
 
 ?>
 
+
+
+<html lang="en">
+   
 <?php include 'includes/header.php';
 
 ?>
 
-<html lang="en">
-   
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,8 +53,10 @@ session_start();
          </body>
 
 
-      <?php include  'includes/footer.php' 
-      ?>
 
 
 </html>
+
+
+<?php include  'includes/footer.php' 
+      ?>
