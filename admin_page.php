@@ -9,8 +9,9 @@ if(!isset($_SESSION['admin_name'])){
 }
 
 ?>
+<?php include 'includes/header.php';
 
-<!DOCTYPE html>
+?>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -23,15 +24,7 @@ if(!isset($_SESSION['admin_name'])){
 
 </head>
 <body>
-<div class="header">
-<a href="index.php" class="logo">Jeremy Kropa</a>
-  <div class="header-right">
-            <a href="contact_us.html" class="btn">Contact Me</a>
-      <a href="logout.php" class="btn">logout</a>
-      <a href="resume.php" class="btn">Resume</a>
-
-</div>
-</div>  
+ 
 <div class="container">
 
    <div class="content">
@@ -52,3 +45,6 @@ if(!isset($_SESSION['admin_name'])){
 
 </body>
 </html>
+<?php include 'includes/footer.php';
+
+?>

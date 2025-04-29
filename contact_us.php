@@ -1,3 +1,6 @@
+<?php include 'includes/header.php';
+
+?>
 <?php
 
 $name = $_POST['name'];
@@ -13,7 +16,6 @@ mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
 echo'
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,3 +43,6 @@ echo'
 
 ?>
 
+<?php include 'includes/footer.php';
+
+?>

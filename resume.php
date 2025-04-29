@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php include 'includes/header.php';
+
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,3 +64,7 @@ August 2021 – May 2023
         
 </body>
 </html>
+
+<?php include 'includes/footer.php';
+
+?>

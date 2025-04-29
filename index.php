@@ -7,8 +7,10 @@ session_start();
 
 ?>
 
+<?php include 'includes/header.php';
 
-<!DOCTYPE html>
+?>
+
 <html lang="en">
    
 <head>
@@ -21,18 +23,7 @@ session_start();
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<div class="header">
-<a href="index.php" class="logo">Jeremy Kropa</a>
-  <div class="header-right">
-  <?php  if (!isset($_SESSION['user_name'])) : ?><a href="login_form.php" class="btn">Login</a><?php endif ?>
-         <?php  if (isset($_SESSION['user_name'])) : ?> <a href="logout.php" class="btn">Logout</a><?php endif ?>
-  <a href="register_form.php" class="btn">Register</a>
-      <a href="contact_us.html" class="btn">Contact Me</a>
-      <a href="resume.php" class="btn">Resume</a>
-
-      
-</div>
-</div> 
+ 
 
 
 <body>
@@ -55,14 +46,12 @@ session_start();
       
 
 
-<footer>
-<div class="footer_bottom">
-   <a href="index.php" class="logo">Jeremy Kropa</a>         
-<div class="footer-right">
-<a href="https://github.com/Jerkrop" class="btn">GitHub</a>
-         </div>
-         </div>
-         </footer>
 
          </body>
+
+
+      <?php include  'includes/footer.php' 
+      ?>
+
+
 </html>
