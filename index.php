@@ -35,7 +35,7 @@ session_start();
 
   
    
-      <h1>Welcome <span>USER</span> to my Portfolio Website</h1>
+      <h1>Welcome to my Portfolio Website</h1>
       
       <p>This is my Home Page for my GitHub Projects</p>
 <div>
