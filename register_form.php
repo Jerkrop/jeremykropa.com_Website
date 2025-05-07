@@ -34,8 +34,10 @@ if(isset($_POST['submit'])){
 
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
+<?php include 'includes/header.php';
+
+?>
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,3 +79,6 @@ if(isset($_POST['submit'])){
 
 
 </html>
+<?php include 'includes/footer.php';
+
+?>
