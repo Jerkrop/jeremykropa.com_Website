@@ -31,7 +31,7 @@ session_start();
 
 <body>
 
-<div class="container content">
+<div class="container">
 
   
    
