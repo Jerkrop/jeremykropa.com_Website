@@ -33,7 +33,6 @@ session_start();
 
 <div class="container">
 
-   <div class="content">
   
    
       <h1>Welcome <span>USER</span> to my Portfolio Website</h1>
