@@ -37,9 +37,9 @@ session_start();
    
       <h1>Welcome to my Portfolio Website</h1>
       
-      <p>This is my Home Page for my GitHub Projects</p>
+      
 <div>
-      <a href="https://github.com/Jerkrop" class="btn" >GitHub</a> 
+     <div> <a href="https://github.com/Jerkrop" class="btn" >GitHub</a> </div>
    
    </div>
    </div>
