@@ -7,8 +7,8 @@
 <div class="footer_bottom">
    <a href="index.php" class="logo">Jeremy Kropa</a>         
 <div class="footer-right">
-<i class="bi bi-github"></i><a href="https://github.com/Jerkrop" class="btn"></a></i>
-<i class="bi bi-linkedin"><a href="https://www.linkedin.com/in/jeremy-kropa" class="btn"></i>
+<i class="bi bi-github" href="https://github.com/Jerkrop" class="btn"></i>
+<i class="bi bi-linkedin" href="https://www.linkedin.com/in/jeremy-kropa" class="btn"></i>
 
          
 </div>
