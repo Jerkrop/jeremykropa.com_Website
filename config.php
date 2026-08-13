@@ -1,5 +1,5 @@
 <?php
 
-$conn = mysqli_connect('localhost','u828877760_Jerkrop12','Meegee12*','u828877760_user_db');
+$conn = mysqli_connect('localhost','u822265912_JerkropWebsite','Meegee12*','u822265912_JerkropWebsite');
 
 ?>
