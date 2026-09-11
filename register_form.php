@@ -3,7 +3,7 @@
 session_start();
 
 $site_key = "6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F";
-$secret_key = "YOUR_RECAPTCHA_SECRET_KEY"; // Replace with your actual reCAPTCHA Secret Key
+$secret_key = "6LfDWHQpAAAAADm3mPAkYfk5Ic5jUccPBFVxX4FM"; // Replace with your actual reCAPTCHA Secret Key
 
 if (isset($_POST['submit'])) {
    $name = mysqli_real_escape_string($conn, $_POST['name']);
