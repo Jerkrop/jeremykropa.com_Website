@@ -1,64 +1,73 @@
-
-
-<html lang="en">
-<?php include 'includes/header.php';
-
+<?php
+session_start();
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="css/resume.css">
+    <title>Resume | Jeremy Kropa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
 
+<?php include 'includes/header.php'; ?>
 
-         <div class="container">
-         <div class="content">
-         </br>
-   <h1>Jeremy Kropa <h1>
-    <p>Email me at: jerkrop@jeremykropa.com  </p>
-<h3>EDUCATION:</h3>
-<h5>Associate of Applied Science:</h5><p>Computer Software Engineering Technology </p>
-<p>Thaddeus Stevens College of Technology ▪ Lancaster, PA 
-August 2021 – May 2023 
-</p>
-<h5>Diploma:<h5>
-   <p>Kennard-dale High School ▪ Fawn Grove, PA 
-</p>
-         </br>
-<h3>RELATED SKILLS/COURSEWORK: </h3>
-<p>▪ Languages: HTML, CSS, PYTHON, POSTGRESQL, JAVASCRIPT, PHP, JAVA, FLUTTER </P>
-<p>▪ Intro to Web Applications ▪ Web Development 1 ▪ Technical Requirements & Data Structures </p>
-<p>▪ Mobile Development ▪ Web Development 2 ▪ Database management ▪ Software Principles ▪ Software Principles </p>
-<p>▪ Software Project 1 & 2</p>
-
-         </br>
-<h3>WORK EXPERIENCE:</h3>
-<h5></u>Software Testing Internship </u><h5>
-<p>Edooket ▪ Lancaster, PA </p>
-<p>February 2023 – May 2023 </p>
-<p>Tested the Edooket website for any bugs.</p>
-         </br>
-<h5> IT Helpdesk Support Specialist </h5>
-<p>OAKWORKS, INC▪ New Freedom, PA </p>
-<p>June 2023 – Present </p>
-<p>Use of Office 365 Software</p>
-<p>Use of Active Directory to add, remove, edit user accounts.</p>
-<p>Provides End User Helpdesk Support to Office, Sales, and production staff to assist with computer and telecom related issues that may arise.</p>
-<p>Diagnose and resolve technical hardware and software issues.</p>
-<p>Log all helpdesk interactions.<p>
-<p>administer helpdesk software.</p>
-<p>resolve technical problems with local area network and VPN users.</p>
-         </br>
-         </div>
-         </div>
+<div class="container">
+    <div class="resume-card">
         
+        <header class="resume-header">
+            <h1>Jeremy Kropa</h1>
+            <p class="contact-info">Email: jerkrop@jeremykropa.com</p>
+        </header>
+
+        <section class="resume-section">
+            <h3>Education</h3>
+            <div class="resume-item">
+                <h5>Associate of Applied Science: Computer Software Engineering Technology</h5>
+                <p class="meta">Thaddeus Stevens College of Technology ▪ Lancaster, PA | August 2021 – May 2023</p>
+            </div>
+            <div class="resume-item">
+                <h5>Diploma</h5>
+                <p class="meta">Kennard-Dale High School ▪ Fawn Grove, PA</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h3>Related Skills & Coursework</h3>
+            <div class="resume-item">
+                <p><strong>Languages:</strong> HTML, CSS, Python, PostgreSQL, JavaScript, PHP, Java, Flutter</p>
+                <p><strong>Coursework:</strong> Intro to Web Applications, Web Development 1 & 2, Technical Requirements & Data Structures, Mobile Development, Database Management, Software Principles, Software Project 1 & 2</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h3>Work Experience</h3>
+            <div class="resume-item">
+                <h5>Software Testing Internship</h5>
+                <p class="meta">Edooket ▪ Lancaster, PA | February 2023 – May 2023</p>
+                <ul>
+                    <li>Tested the Edooket web applications to identify and resolve software bugs.</li>
+                </ul>
+            </div>
+            
+            <div class="resume-item">
+                <h5>IT Helpdesk Support Specialist</h5>
+                <p class="meta">OAKWORKS, INC ▪ New Freedom, PA | June 2023 – Present</p>
+                <ul>
+                    <li>Utilize Office 365 software and Active Directory to manage and administer user accounts.</li>
+                    <li>Provide end-user support to office, sales, and production personnel for computer and telecom issues.</li>
+                    <li>Diagnose and resolve technical hardware, software, local area network, and VPN connectivity problems.</li>
+                    <li>Log all helpdesk interactions and administer ticketing software.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<?php include 'includes/footer.php'; ?>
+
 </body>
 </html>
-
-<?php include 'includes/footer.php';
-
-?>
