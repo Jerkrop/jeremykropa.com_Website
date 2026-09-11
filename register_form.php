@@ -2,8 +2,8 @@
 @include 'config.php';
 session_start();
 
-$secret_key = RECAPTCHA_SECRET_KEY; // Replace with your actual reCAPTCHA Secret Key
-
+$site_key = "6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F";
+$secret_key = RECAPTCHA_SECRET_KEY;
 if (isset($_POST['submit'])) {
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
