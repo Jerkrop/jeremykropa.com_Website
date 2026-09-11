@@ -14,7 +14,7 @@
             <a href="logout.php" class="nav-link">Logout</a>
         <?php endif; ?>
         <a href="register_form.php" class="nav-link">Register</a>
-        <a href="contact_us.html" class="nav-link">Contact Me</a>
+        <a href="contact_us.php" class="nav-link">Contact Me</a>
         <a href="resume.php" class="btn">Resume</a>
     </div>
 </div>
