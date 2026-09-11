@@ -1,88 +1,92 @@
 <?php
-
 @include 'config.php';
-
 session_start();
 
-if(isset($_POST['submit'])){
+$site_key = "6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F";
+$secret_key = "YOUR_RECAPTCHA_SECRET_KEY"; // Replace with your actual reCAPTCHA Secret Key
 
+if (isset($_POST['submit'])) {
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = md5($_POST['password_']);
+   $recaptcha_response = $_POST['g-recaptcha-response'] ?? '';
 
-   $select = " SELECT * FROM user_form WHERE email = '$email' && password_ = '$pass' ";
+   // Verify reCAPTCHA with Google API
+   $verify_url = "https://www.google.com/recaptcha/api/siteverify?secret={$secret_key}&response={$recaptcha_response}";
+   $response = @file_get_contents($verify_url);
+   $response_data = json_decode($response);
 
-   $result = mysqli_query($conn, $select);
+   if (!$response_data || !$response_data->success) {
+      $error[] = 'Please complete the reCAPTCHA verification!';
+   } else {
+      $select = "SELECT * FROM user_form WHERE email = '$email' AND password_ = '$pass'";
+      $result = mysqli_query($conn, $select);
 
-   if(mysqli_num_rows($result) > 0){
+      if (mysqli_num_rows($result) > 0) {
+         $row = mysqli_fetch_array($result);
 
-      $row = mysqli_fetch_array($result);
-
-      if($row['user_type'] == 'admin'){
-
-         $_SESSION['admin_name'] = $row['name'];
-         header('location: admin_page.php');
-
-      }elseif($row['user_type'] == 'user'){
-
-         $_SESSION['user_name'] = $row['name'];
-         header('location: index.php');
-
-         
+         if ($row['user_type'] == 'admin') {
+            $_SESSION['admin_name'] = $row['name'];
+            header('location: admin_page.php');
+            exit();
+         } elseif ($row['user_type'] == 'user') {
+            $_SESSION['user_name'] = $row['name'];
+            header('location: index.php');
+            exit();
+         }
+      } else {
+         $error[] = 'Incorrect email or password!';
       }
-     
-   }else{
-      $error[] = 'incorrect email or password!';
    }
-
-};
+}
 ?>
-
-
-
-
-
+<!DOCTYPE html>
 <html lang="en">
-
-<?php include 'includes/header.php';
-
-?>
-
 <head>
    <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Login</title>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-   <!-- custom css file link  -->
+   <title>Login | Jeremy Kropa</title>
    <link rel="stylesheet" href="css/style.css">
-   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<div class="form-container">
-   <form action="" method="post">
-      <h3>login</h3>
-      <?php
-      if(isset($error)){
-         foreach($error as $error){
-            echo '<span class="error-msg">'.$error.'</span>';
-         };
-      };
-   
-      ?>
-     
+<body>
 
-      <input type="email" name="email" required placeholder="Enter your email">
-      <input type="password" name="password_" required placeholder="Enter your password">
-      <div class="g-recaptcha" data-sitekey="6LfDWHQpAAAAAKc_LkIKftO0Hz3dkPp_BXmVxJ7F"></div>
-      <input type="submit" name="submit" value="login" class="form-btn">
-      <p>don't have an account? <a href="register_form.php">Register</a></p>
-      <a href="index.php">Want to go back?</a>
+<?php include 'includes/header.php'; ?>
 
-      </div>
-   </form>
+<div class="container">
+   <div class="form-container">
+      <form action="" method="post">
+         <h3>Login</h3>
+         
+         <?php
+         if (isset($error)) {
+            foreach ($error as $err) {
+               echo '<span class="error-msg">' . htmlspecialchars($err) . '</span>';
+            }
+         }
+         ?>
 
+         <label for="email">Email</label>
+         <input type="email" id="email" name="email" required placeholder="Enter your email">
 
+         <label for="password_">Password</label>
+         <input type="password" id="password_" name="password_" required placeholder="Enter your password">
 
+         <div class="recaptcha-wrapper">
+            <div class="g-recaptcha" data-sitekey="<?php echo $site_key; ?>"></div>
+         </div>
+
+         <input type="submit" name="submit" value="Login" class="btn form-btn">
+
+         <div class="form-footer-links">
+            <p>Don't have an account? <a href="register_form.php">Register now</a></p>
+            <p><a href="index.php"><i class="bi bi-arrow-left"></i> Return to Homepage</a></p>
+         </div>
+      </form>
+   </div>
+</div>
+
+<?php include 'includes/footer.php'; ?>
+
+</body>
 </html>
-<?php include 'includes/footer.php';
-
-?>
